@@ -16,7 +16,7 @@ app.listen(process.env.port, async () => {
   try {
     await connection;
     console.log("Connected to the database");
-    console.log(`Server running on port ${process.env.port}`);
+    console.log(`Server running on port efficently ${process.env.port}`);
   } catch (err) {
     console.error(err);
     console.log("Something went wrong");
